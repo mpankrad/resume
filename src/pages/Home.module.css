@@ -1,11 +1,11 @@
 .backgroundPicture {
-  min-height: 100vh; /* full viewport height */
+  min-height: 100vh; 
   background-image: url('/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center; /* centers container horizontally */
+  justify-content: center; 
 }
 
 .container {
