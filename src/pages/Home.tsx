@@ -3,7 +3,9 @@ import "/pfp.png";
 
 export function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.backgroundPicture}>
+    <div className={styles.container}
+    >
       <div className={styles.borderContainer}>
         {/*HEADER*/}
         <header className={styles.header}>
@@ -176,6 +178,7 @@ export function Home() {
           </section>
         </div>
       </div>
+    </div>
     </div>
   );
 }
