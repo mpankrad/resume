@@ -1,0 +1,125 @@
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.borderContainer {
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 9px;
+}
+
+.body {
+  padding: 2rem;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #2e59db;
+  color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.pfp {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.25rem solid white;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+/* SECTION */
+.section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section:first-of-type {
+  margin-top: 0;
+}
+
+.sectionTitle {
+  background: #0b0c21;
+  color: white;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.75rem 1.25rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+.job h3 {
+  font-size: 1.2rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  margin: 0.25rem 0 0.5rem 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin: 0.3rem 0;
+}
+
+/* SKILLS */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.skill span {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.15rem;
+  background: #ccc;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #0b0c21;
+}
