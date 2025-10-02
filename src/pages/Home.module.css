@@ -103,6 +103,10 @@ ul {
   margin: 0.3rem 0;
 }
 
+li {
+  padding-top: 1rem;
+}
+
 /* SKILLS */
 .skills {
   display: grid;
@@ -133,4 +137,60 @@ ul {
 .fill {
   height: 100%;
   background: #0b0c21;
+}
+
+.pstyle {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .body {
+    padding: 1.5rem;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .pfp {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .skills {
+    grid-template-columns: 1fr; /* stack skills on mobile */
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .body {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
 }

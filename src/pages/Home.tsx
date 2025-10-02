@@ -21,8 +21,8 @@ export function Home() {
           {/*DETAILS*/}
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>DETAILS</h2>
-            <p>+380 935 102 056</p>
-            <p>stas.tarasenko1991@gmail.com</p>
+            <p style={{paddingTop: "1rem"}}>+380 935 102 056</p>
+            <p style={{paddingTop: "1rem"}}>stas.tarasenko1991@gmail.com</p>
           </section>
 
           {/*SUMMARY*/}
@@ -74,7 +74,7 @@ export function Home() {
             <div className={styles.job}>
               <h3>Frontend developer, Procoders, Kharkiv, Ukraine</h3>
               <h4 className={styles.date}>OCT 2021 - SEP 2022</h4>
-              <p>
+              <p className={styles.pstyle}>
                 Meeting platforms for business to search and connect with
                 another businesses in US.
               </p>
@@ -85,7 +85,7 @@ export function Home() {
                 Frontend Developer, Vue / React, Megadev, Kharkiv, Ukraine
               </h3>
               <h4 className={styles.date}>AUG 2020 - SEP 2021</h4>
-              <p>
+              <p className={styles.pstyle}>
                 Frontend development in the company, work with designs form
                 Figma, making reusable Components, adding different logic,
                 working with styles CSS, SAAS and Styled-Components, work with
